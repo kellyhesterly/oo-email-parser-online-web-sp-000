@@ -12,7 +12,7 @@ def initialize(email)
 end
 
 def parse
-  email.split
+  email.split.collect
   binding.pry
 end
 

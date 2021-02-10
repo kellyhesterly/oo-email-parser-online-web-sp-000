@@ -13,9 +13,8 @@ end
 
 def parse
   email.split.collect {|e| e.split(',').flatten.uniq}
-  end
-  .flatten.uniq
-  binding.pry
+end
+
 
 
 end

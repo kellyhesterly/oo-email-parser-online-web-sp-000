@@ -14,7 +14,7 @@ end
 def parse
   email.split
   # email.split.collect {|e| e.strip.split(" , ")}
-  # binding.pry
+  binding.pry
 end
 
 end

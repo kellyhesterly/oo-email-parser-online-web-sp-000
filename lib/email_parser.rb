@@ -13,7 +13,7 @@ end
 def parse
   email.split.collect do |e| e.split(',')
   end
-  .uniq
+  .flatten.uniq
 end
 
 end

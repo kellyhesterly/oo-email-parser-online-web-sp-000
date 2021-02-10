@@ -12,8 +12,8 @@ def initialize(email)
 end
 
 def parse
-  email.split.collect {|e| e.strip.split(" ")}
-  email.uniq
+  prase = email.split.collect {|e| e.strip.split(" ")}
+  parse.uniq
 end
 
 end

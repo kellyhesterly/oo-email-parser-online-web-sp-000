@@ -12,7 +12,9 @@ def initialize(email)
 end
 
 def parse
-  email.split.collect {|e| e.split(',').flatten.uniq}
+  email.split.collect {|e| e.split(',')}
+end
+    .flatten.uniq}
 end
 
 

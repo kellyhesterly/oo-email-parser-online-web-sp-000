@@ -13,7 +13,7 @@ end
 
 def parse
   email.split.collect {|e| e.join(", ") }
-  
+
   binding.pry
 end
 

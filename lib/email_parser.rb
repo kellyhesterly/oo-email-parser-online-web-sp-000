@@ -12,7 +12,7 @@ def initialize(email)
 end
 
 def parse
-  email.gsub(/[\s,]/ ,"")
+  email.gsub(/[\s,]/ ," ")
   # email.split.collect {|e| e.strip.split(" , ")}
   # binding.pry
 end

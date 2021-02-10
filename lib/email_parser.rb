@@ -12,10 +12,10 @@ def initialize(email)
 end
 
 def parse
-  email.split.collect do |e| e.split(',')
+  email.split.collect {|e| e.split(',').flatten.uniq}
   end
   .flatten.uniq
   binding.pry
-end
+
 
 end

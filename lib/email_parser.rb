@@ -12,7 +12,7 @@ end
 
 def parse
   email.split.collect do |e| e.split(', ')
-    
+
 
   # binding.pry
 end

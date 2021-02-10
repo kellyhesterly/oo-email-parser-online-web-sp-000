@@ -13,7 +13,7 @@ end
 
 def parse
   email.split.collect {|e| e.strip.split(" ")}
-# binding.pry
+  email.uniq
 end
 
 end

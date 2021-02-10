@@ -11,7 +11,9 @@ def initialize(email)
 end
 
 def parse
-  email.split.collect {|e| e.split(", ") }
+  email.split.collect {|e| e.(", ") }
+
+  # binding.pry
 end
 
 end
